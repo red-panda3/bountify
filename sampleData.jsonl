@@ -1,0 +1,3 @@
+{"clerkId": "clerk_12345", "email": "alice@example.com", "imageUrl": "https://example.com/images/alice.jpg", "name": "Alice Johnson"}
+{"clerkId": "clerk_67890", "email": "bob@example.com", "imageUrl": "https://example.com/images/bob.jpg", "name": "Bob Smith"}
+{"clerkId": "clerk_11223", "email": "charlie@example.com", "imageUrl": "https://example.com/images/charlie.jpg", "name": "Charlie Brown"}
