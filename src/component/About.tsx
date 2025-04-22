@@ -59,7 +59,7 @@ function About() {
             transition={{ duration: 0.15 }}
             variants={itemVariants}
           >
-            <img src='src\assets\WhatsApp Image 2025-04-15 at 01.55.27_6d2b61b6.jpg' width={550} alt="Vision Image" />
+            <img src='public\assets\WhatsApp Image 2025-04-15 at 01.55.27_6d2b61b6.jpg' width={550} alt="Vision Image" />
           </motion.div>   
         </motion.div>  
         <motion.div 
@@ -77,10 +77,10 @@ function About() {
             variants={containerVariants}
           >
             {[
-              { src: 'src\\assets\\Exchange market analysis on holographic screen.png', width: 180, text: 'Mentors' },
-              { src: 'src\\assets\\young man with laptop computer working at home office.png', width: 250, text: 'FreeLancer' },
-              { src: 'src\\assets\\New business partners shaking hands.png', width: 180, text: 'Investor' },
-              { src: 'src\\assets\\WhatsApp Image 2025-04-15 at 01.51.39_54b54404.jpg', width: 180, text: 'StartUp' }
+              { src: 'public\\assets\\Exchange market analysis on holographic screen.png', width: 180, text: 'Mentors' },
+              { src: 'public\\assets\\young man with laptop computer working at home office.png', width: 250, text: 'FreeLancer' },
+              { src: 'public\\assets\\New business partners shaking hands.png', width: 180, text: 'Investor' },
+              { src: 'public\\assets\\WhatsApp Image 2025-04-15 at 01.51.39_54b54404.jpg', width: 180, text: 'StartUp' }
             ].map((item, index) => (
               <motion.div
                 key={index}

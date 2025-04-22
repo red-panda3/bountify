@@ -50,7 +50,7 @@ function Home() {
               viewport={{ once: false }}
             >
               <img
-                src="src\assets\WhatsApp Image 2025-04-15 at 01.55.27_7f91d90b.jpg"
+                src="public\assets\WhatsApp Image 2025-04-15 at 01.55.27_7f91d90b.jpg"
                 alt="Bountify"
                 className="w-[90%] h-[90%] object-cover rounded-2xl shadow-lg"
               />
@@ -113,7 +113,7 @@ function Home() {
               viewport={{ once: false }}
             >
               <img
-                src="src\assets\WhatsApp Image 2025-04-15 at 01.55.30_f7e677ec.jpg"
+                src="public\assets\WhatsApp Image 2025-04-15 at 01.55.30_f7e677ec.jpg"
                 className="w-[90%] h-[100%] object-cover rounded-2xl shadow-lg"
               />
             </motion.div>
@@ -206,10 +206,10 @@ function Home() {
             </div>
             <div className="w-[40%] mr-[5%] flex flex-col gap-2">
               {[
-                'src/assets/WhatsApp Image 2025-04-15 at 01.55.31_5f15773d.jpg',
-                'src/assets/WhatsApp Image 2025-04-15 at 01.55.33_92090558.jpg',
-                'src/assets/WhatsApp Image 2025-04-15 at 01.55.31_9c3da767.jpg',
-                'src/assets/WhatsApp Image 2025-04-15 at 01.55.27_b228cac8.jpg'
+                'public/assets/WhatsApp Image 2025-04-15 at 01.55.31_5f15773d.jpg',
+                'public/assets/WhatsApp Image 2025-04-15 at 01.55.33_92090558.jpg',
+                'public/assets/WhatsApp Image 2025-04-15 at 01.55.31_9c3da767.jpg',
+                'public/assets/WhatsApp Image 2025-04-15 at 01.55.27_b228cac8.jpg'
               ].map((src, index) => (
                 <motion.img
                   key={index}
